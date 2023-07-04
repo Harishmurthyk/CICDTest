@@ -806,7 +806,7 @@
         "measures": [
           {
             "name": "AttritionRate",
-            "expression": "DIVIDE(SUM('HR Analytics'[Attrition Count]),SUM('HR Analytics'[Employee Count]))",
+            "expression": "DIVIDE(SUM('HR Analytics'[Attrition Count]),SUM('HR Analytics'[Employee Count])) *10",
             "formatString": "0.0%;-0.0%;0.0%",
             "lineageTag": "6aa6e266-6510-41c0-b91a-36c9bfd9f430"
           }
