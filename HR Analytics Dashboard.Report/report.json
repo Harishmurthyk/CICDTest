@@ -202,6 +202,36 @@
     },
     {
       "config": "{\"visibility\":1}",
+      "displayName": "Duplicate of Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection5c5a1cd062582c2f52af",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"226fb4f3515890624d95\",\"layouts\":[{\"id\":0,\"position\":{\"x\":996.7164179104477,\"y\":156.71641791044775,\"z\":1000,\"width\":149.55223880597015,\"height\":80.59701492537313,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(HR_Analytics.EmpID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"h\",\"Entity\":\"HR Analytics\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"Emp ID\"}},\"Function\":5},\"Name\":\"Min(HR_Analytics.EmpID)\",\"NativeReferenceName\":\"Count of EmpID\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"Emp ID\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"35D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Count Of Employees'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F1F1F1'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 80.60,
+          "width": 149.55,
+          "x": 996.72,
+          "y": 156.72,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"79bdf70864cf8b079bd8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":39.40298507462686,\"z\":0,\"width\":494.3283582089552,\"height\":354.6268656716418,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"HR Analytics.Salary Slab\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(HR Analytics.Over Time Flag)\"}],\"Tooltips\":[{\"queryRef\":\"HR Analytics.AttritionRate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"h\",\"Entity\":\"HR Analytics\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"Salary Slab\"},\"Name\":\"HR Analytics.Salary Slab\",\"NativeReferenceName\":\"Salary Slab\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"Over Time Flag\"}},\"Function\":0},\"Name\":\"Sum(HR Analytics.Over Time Flag)\",\"NativeReferenceName\":\"Sum of Over Time Flag\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"AttritionRate\"},\"Name\":\"HR Analytics.AttritionRate\",\"NativeReferenceName\":\"AttritionRate\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"Over Time Flag\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 354.63,
+          "width": 494.33,
+          "x": 0.00,
+          "y": 39.40,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"visibility\":1}",
       "displayName": "Page 1",
       "displayOption": 1,
       "filters": "[]",
